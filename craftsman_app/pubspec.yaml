@@ -1,0 +1,42 @@
+name: craftsman_app
+description: A craftsman marketplace app with Arabic RTL support
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^2.15.0
+  cloud_firestore: ^4.8.4
+  firebase_auth: ^4.6.1
+  google_maps_flutter: ^2.2.6
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.18.1
+  flutter_riverpod: ^2.4.9
+  flutter_rtl: ^3.0.0
+  geolocator: ^10.0.0
+  http: ^0.13.6
+  provider: ^6.0.5
+  sendgrid_mailer: ^3.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/arb/
+    - assets/images/
+    - assets/logo.png
+  fonts:
+    - family: Amiri
+      fonts:
+        - asset: assets/fonts/Amiri-Regular.ttf
+        - asset: assets/fonts/Amiri-Bold.ttf
+          weight: 700
