@@ -1,0 +1,23 @@
+{
+  "@@locale": "ar",
+  "appTitle": "تطبيق الحرفيين",
+  "login": "تسجيل الدخول", 
+  "signup": "إنشاء حساب",
+  "email": "البريد الإلكتروني",
+  "password": "كلمة المرور",
+  "welcome": "مرحباً بك",
+  "userType": "نوع المستخدم",
+  "craftsman": "حرفي",
+  "learner": "متعلم",
+  "serviceSeeker": "باحث عن خدمة",
+  "craft": "الحرفة",
+  "location": "الموقع",
+  "search": "بحث",
+  "profile": "الملف الشخصي",
+  "requests": "الطلبات",
+  "ratings": "التقييمات",
+  
+  "@welcome": {
+    "description": "رسالة الترحيب في الصفحة الرئيسية"
+  }
+}
