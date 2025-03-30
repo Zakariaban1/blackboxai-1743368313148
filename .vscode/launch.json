@@ -1,0 +1,14 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Craftsman App",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/main.dart",
+      "args": [
+        "--dart-define=SENDGRID_API_KEY=YOUR_API_KEY_HERE"
+      ]
+    }
+  ]
+}
